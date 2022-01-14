@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 170vh;
+    min-height: 200vh;
     margin: 0;
 }
 
@@ -124,4 +124,25 @@ body {
 .information-box p {
     font-size: 18px;
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 100px 20% 0px 20%;
+}
+
+.quote p {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0px;
+}
+
+.quote h4 {
+    margin: 0px 20px 100px 0px;
 }
