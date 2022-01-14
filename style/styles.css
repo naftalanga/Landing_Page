@@ -49,6 +49,8 @@ body {
 
 .hero-left {
     flex-wrap: wrap;
+    flex: 1;
+    margin-right: 50px;
 }
 
 .hero-left h1 {
@@ -72,5 +74,12 @@ body {
 }
 
 .hero-right {
-    
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.hero-right img {
+    object-fit: contain;
+    max-width: 100%;
 }
