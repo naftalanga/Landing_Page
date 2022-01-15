@@ -139,10 +139,60 @@ body {
     display: flex;
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 200;
     margin: 0px;
 }
 
 .quote h4 {
     margin: 0px 20px 100px 0px;
+    font-size: 24px;
+}
+
+.contact {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 6px;
+    margin: 80px 10%;
+    align-self: stretch;
+    padding: 20px 10%;
+    color: #F9FAF8;
+    align-items: stretch;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+}
+
+.call-to-action h4 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.call-to-action p {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.contact-button {
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: 3px solid #F9FAF8;
+    justify-self: flex-end;
+    padding: 10px 40px;
+    border-radius: 8px;
+    margin-left: auto;
+}
+
+.footer {
+    background-color: #1F2937;
 }
